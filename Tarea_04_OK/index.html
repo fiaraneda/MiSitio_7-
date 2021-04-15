@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <ul id="menu">
+            <li id="link-menu">HOME</li>
+            <li id="link-menu">CONTACTO</li>
+            <li id="link-menu">PRODUCTOS</li>
+        </ul>
+    </header>
+    <!-- Video Navegador -->
+    <nav id="navegador">
+        <video id="video-nav" style="background-image: url('/image/nav_tbpe.jpg')" src="multimedia/video_claps.mp4" muted autoplay loop></video>
+    </nav>
+    <main id="main-section">
+        <section id="section-presentasion">
+            <article id="article-foto">
+                <img id="foto" src="image/el concepto.png" alt="foto carnet">
+            </article>
+            <article id="article-presentacion">
+                <h1 id="titulo-presentacion"><strong>BIENVENIDOS</strong></h1>
+                <p id="presentacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste dolore facere dolorum vitae quaerat cupiditate. Omnis voluptates ea quidem voluptatum quae odit officia, rem id. Minima ducimus aperiam nostrum.</p>
+                <h1 id="titulo-mensaje"><strong>¡CONOCE MÁS DE MI!</strong></h1>
+            </article>
+        </section>
+        <section id="section-formulario">
+            <h1 id="titulo-presentacion"><strong>CONTÁCTAME</strong></h1>
+            <form name="mifomulario" id="miformulario">
+                <input id ="input-box" type="text"   pattern="[A-Z] {100}" placeholder="Ingresa tu Nombre" multiple required>
+                <input id ="input-box" type="email"  pattern="{76}"  placeholder="Ingresa tu Correo" multiple required>
+                <input id ="input-box" type="tel" pattern="[0-9] {12}"  placeholder="Ingresa tu Telefono" multiple required>
+                <input id ="input-boton" type="submit"  value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer id="main-footer">
+       <h1 id="texto-pie">DERECHOS RESERVADOS</h1>
+    </footer>
+</body>
+</html>
